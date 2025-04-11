@@ -7,17 +7,24 @@
 	- **(a) Extracting a 100×100 Region from the Center of an Image, Load an image from a given URL. Determine the center coordinates of the image. Extract a 100×100 pixel region from the center. Display both the original and cropped image for comparison. ✓**
 	- **(b) Converting an Image to HSV and Visualizing Components, Convert the input image from RGB to HSV color space. Extract and visualize the Hue, Saturation, and Value components individually in grayscale. Analyze how HSV representation differs from RGB.✓**
    
-- **Task 2: Take a grayscale image of size 512x512 & perform the following operations –**
-	- **(a) Differentiate the results of power law & inverse logarithmic transformation ✓**
-	- **(b) Differentiate the results of power law & inverse logarithmic transformation ✓**
-	- **(c) Find the difference image between original & the image obtained by last three MSBs ✓**
+- **Task 2: This lab assignment aims to implement multiple image transformation techniques using Python and OpenCV. The transformations include resizing, rotating, and flipping an image, followed by displaying all results in a single plot. –**
+	- **(a) Resize an Image: Resize the image to 256x256 pixels. ✓**
+	- **(b) Rotate by 180 Degrees (Clockwise): Rotate the image by 180 degrees in the clockwise direction. ✓**
+	- **(c) Vertical Flip: Flip the image vertically. ✓**
+ 	- **(d) Display Transformations: Display the original image and all transformed images in a 2x2 subplot for comparison. ✓**
    
-- **Task 3: Take a grayscale image of size 512x512, add some salt-and-pepper noise & perform the following operations –**
-	- **(a) Apply average & median spatial filters with 5x5 mask & observe their performance for noise suppression in term of PSNR ✓**
-	- **(b) Apply average filter with (3x3, 5x5, 7x7) mask with average filter & observe their performance in term of PSNR ✓**
-	- **(c) Apply harmonic & geometric mean filter on the noisy image & compare their performance with PSNR ✓**
+- **Task 3: Create two 400x400 images with black background  –**
+	- **(a) The first image should contain a green rectangle at the center. ✓**
+	- **(b) The second image should contain a magenta circle at the center. ✓**
+	- **(c) Bitwise AND (cv2.bitwise_and): Show the overlapping region of the two images. ✓**
+	- **(d) Bitwise OR (cv2.bitwise_or): Combine both shapes while retaining their colors. ✓**
+ 	- **(e) Bitwise XOR (cv2.bitwise_xor): Retains only the non-overlapping parts of both images. ✓**
+  	- **(d) Bitwise NOT (cv2.bitwise_not): Inverts the colors of each shape separately. ✓**
+  	- **(f) Element-wise Multiplication (cv2.multiply): Observe the effect on overlapping areas. ✓**
+  	- **(g) Alpha Blending (cv2.addWeighted): Blend both images with transparency effects. ✓**
+  	- **(h) Image Subtraction (cv2.subtract): Highlights the differences between the two images. ✓**
    
-- **Task 4: Take a grayscale image of size 512x512, add some Gaussian noise & perform the following operations in the frequency domain –**
+- **Task 4: Create two 400x400 images with black background –**
 	- **(a) Apply 4th order Butterworth & Gaussian low-pass filter to analyze their performance quantitatively ✓**
 	- **(b) Display the ringing effect of the ideal low-pass filter of different radius on the image ✓**
 	- **(c) Perform edge detection of given the noisy & clean image using ideal & Gaussian high-pass filters ✓**
