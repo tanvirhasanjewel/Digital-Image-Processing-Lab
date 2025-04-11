@@ -24,9 +24,8 @@
   	- **(g) Alpha Blending (cv2.addWeighted): Blend both images with transparency effects. ✓**
   	- **(h) Image Subtraction (cv2.subtract): Highlights the differences between the two images. ✓**
    
-- **Task 4: Create two 400x400 images with black background –**
-	- **(a) Apply 4th order Butterworth & Gaussian low-pass filter to analyze their performance quantitatively ✓**
-	- **(b) Display the ringing effect of the ideal low-pass filter of different radius on the image ✓**
-	- **(c) Perform edge detection of given the noisy & clean image using ideal & Gaussian high-pass filters ✓**
-   
+- **Task 4: Read a black and white image using URL and apply this custom weighted filter on that image (both manually and using cv2.filter2D) and show all 3 pictures in same plot as subplots. –**
+	- **(a) [ 1,1,1 ]
+	- 	[ 1,2,1 ]
+ 	- 	[ 1,1,1 ] 
  
