@@ -24,8 +24,9 @@
   	- **(g) Alpha Blending (cv2.addWeighted): Blend both images with transparency effects. ✓**
   	- **(h) Image Subtraction (cv2.subtract): Highlights the differences between the two images. ✓**
    
-- **Task 4: Read a black and white image using URL and apply this custom weighted filter on that image (both manually and using cv2.filter2D) and show all 3 pictures in same plot as subplots. –**
-	- **(a) [ 1,1,1 ]
-	- 	[ 1,2,1 ]
- 	- 	[ 1,1,1 ] 
+- **Task 4: Read a black and white image using URL and apply this custom weighted filter on that image (both manually and using cv2.filter2D) and show all 3 pictures in the same plot as subplots. –**
+	- **(a) It is normalized by dividing by the sum of its weights (10) to preserve brightness. The custom filter used is: ✓**
+ - [ 1 1 1 ]
+ - [ 1 2 1 ]
+ - [ 1 1 1 ]
  
